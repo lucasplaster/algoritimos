@@ -86,6 +86,6 @@ print(e_primo(7))
 
 
 
-print("\nUsando o metodo do crico de eratostenes.")
+print("\nUsando o metodo do crivo de eratostenes.")
 for i in crivo_eratostenes(100):
     print(i)
