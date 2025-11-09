@@ -1,2 +1,2 @@
 # algoritimos
- Repositoria criado para estudo de algoritimos de programação
+ Repositorio criado para estudo de algoritimos de programação
