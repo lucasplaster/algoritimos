@@ -1,7 +1,7 @@
 import re
 
 
-def _gerador_digito_verificador(cpf: int) -> str:
+def _gerador_digito_verificador(cpf: str) -> str:
     soma1 = sum(int(cpf[i]) * (10-i) for i in range(9))
     digito1 = soma1 % 11
 
@@ -23,7 +23,7 @@ def _gerador_digito_verificador(cpf: int) -> str:
     return str(f"{digito1}{digito2}")
 
 
-def _verificador_cpf(cpf):
+def _verificador_cpf(cpf: str):
 
     digito_verificador1, digito_verificador2 = int(cpf[9]), int(cpf[10])
     cpf = cpf[:9]
